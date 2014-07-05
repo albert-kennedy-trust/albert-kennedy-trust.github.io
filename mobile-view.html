@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>Cameleon</title>
+    <link rel="icon" type="image/png" href="/assets/icon.png">
+    <style type="text/css">
+      html {
+        font-family: Helvetica, sans-serif;
+        font-size: 1.5em;
+        line-height: 1.5em;
+      }
+      iframe::-webkit-scrollbar {  
+        display: none;
+      }
+      section {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: flex-end;
+      }
+      h2 {
+        margin-top: 2em;
+      }
+      .device {
+        text-align: center;
+        position: relative;
+        margin: 1em;
+      }
+      .ios-portrait iframe {
+        border-left: 20px solid Black;
+        border-right: 20px solid Black;
+        border-top: 90px solid Black;
+        border-bottom: 90px solid Black;
+        border-radius: 50px;
+      }
+      .ios-landscape iframe {
+        border-left: 90px solid Black;
+        border-right: 90px solid Black;
+        border-top: 20px solid Black;
+        border-bottom: 20px solid Black;
+        border-radius: 50px;
+      }
+      .android-portrait iframe {
+        border-left: 15px solid Silver;
+        border-right: 15px solid Silver;
+        border-top: 70px solid Silver;
+        border-bottom: 70px solid Silver;
+        border-radius: 40px;
+      }
+      .android-landscape iframe {
+        border-left: 70px solid Silver;
+        border-right: 70px solid Silver;
+        border-top: 15px solid Silver;
+        border-bottom: 15px solid Silver;
+        border-radius: 40px;
+      }
+      .button {
+        position: absolute;
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 4px solid #21262a;
+        background: Black;
+      }
+      .ios-portrait .button {
+        bottom: 2.6em;
+        left: 50%;
+        margin-left: -25px;
+      }
+      .ios-landscape .button {
+        left: 18px;
+        top: 50%;
+        margin-top: -2.1em;
+      }
+      .android-portrait .button, .android-landscape .button {
+        width: 10px;
+        height: 10px;
+      }
+      .android-portrait .button {
+        top: 1.1em;
+        left: 50%;
+        margin-left: -5px;
+      }
+      .android-landscape .button {
+        top: 50%;
+        margin-top: -1em;
+        right: 1.1em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mobile Preview: <a href="http://albert-kennedy-trust.github.io/" target="_blank">albert-kennedy-trust.github.io/</a></h1>
+    <h2>Portrait</h2>
+    <section class="portrait" style="width: 3914px;">
+    <div class="device ios-portrait"><iframe src="http://albert-kennedy-trust.github.io/" width="320" height="480"></iframe><span class="button"></span><br><span class="title">iPhone 4</span></div><div class="device ios-portrait"><iframe src="http://albert-kennedy-trust.github.io/" width="320" height="568"></iframe><span class="button"></span><br><span class="title">iPhone 5</span></div><div class="device android-portrait"><iframe src="http://albert-kennedy-trust.github.io/" width="360" height="640"></iframe><span class="button"></span><br><span class="title">HTC one</span></div><div class="device ios-portrait"><iframe src="http://albert-kennedy-trust.github.io/" width="768" height="1024"></iframe><span class="button"></span><br><span class="title">iPad mini</span></div></section>
+
+    <h2>Landscape</h2>
+    <section class="landscape" style="width: 4858px;">
+  
+<div class="device ios-landscape"><iframe src="http://albert-kennedy-trust.github.io/" width="480" height="320"></iframe><span class="button"></span><br><span class="title">iPhone 4</span></div><div class="device ios-landscape"><iframe src="http://albert-kennedy-trust.github.io/" width="568" height="320"></iframe><span class="button"></span><br><span class="title">iPhone 5</span></div><div class="device android-landscape"><iframe src="http://albert-kennedy-trust.github.io/" width="640" height="360"></iframe><span class="button"></span><br><span class="title">HTC one</span></div><div class="device ios-landscape"><iframe src="http://albert-kennedy-trust.github.io/" width="1024" height="768"></iframe><span class="button"></span><br><span class="title">iPad mini</span></div></section>
+
+</body></html>
