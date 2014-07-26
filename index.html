@@ -19,7 +19,22 @@
       line-height: 1.5;
       color: #333;
     }
-    .container {
+    
+    .nav > li > a {
+      position: relative;
+      display: block;
+      padding: 10px 14px;
+    }
+
+    .dropdown-menu {
+      left: -77px;
+    }
+
+    .dropdown-menu > li > a {
+      padding: 10px 20px;
+    }
+    
+    .container, nav > ul {
       width: 100%;
       max-width: 800px;
       margin: 0 auto;
@@ -42,6 +57,7 @@
       font-size: 34px;
       font-weight: 600;
     }
+    
     h3 {
       margin-top: 1em;
     }
@@ -52,6 +68,7 @@
       padding-top: 25px;
       height: 0;
     }
+    
     .videoWrapper iframe {
       position: absolute;
       top: 0;
@@ -63,16 +80,20 @@
 </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <ul class="nav nav-pills">
-        <li><a href="#help">Need Help</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-        <li><a>More</a></li>
-        <li><a href="#people">People Like Me</a></li>
-        <li><a href="#about">About Us</a></li>
+    <ul class="nav nav-pills">
+      <li><a href="#help">Need Help?</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+      
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          More <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#people">People Like Me</a></li>
+          <li><a href="#about">About Us</a></li>
         </ul>
-      </ul>
-    </div>
+      </li>
+    </ul>
   </nav>
 
   <div class="purple">
