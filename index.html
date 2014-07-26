@@ -12,6 +12,13 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   <style type="text/css" media="screen">
+    body {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.5;
+      color: #333;
+    }
     .container {
       width: 100%;
       max-width: 800px;
@@ -21,14 +28,22 @@
     .img-rounded {
       display: block;
       width: 100%;
-      max-width: 400px;
+      max-width: 600px;
       margin: 0 auto;
     }
 
-    .img-logo {
-      float: left;
-      width: 23%;
-      margin: 1%;
+    .row.logos {
+      padding-bottom: 2em;
+    }
+
+    h2  {
+      margin: 2em 0 1em 0;
+      text-align: center;
+      font-size: 34px;
+      font-weight: 600;
+    }
+    h3 {
+      margin-top: 1em;
     }
   </style>
 </head>
@@ -36,10 +51,10 @@
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       <ul class="nav nav-pills">
-        <li class="active"><a href="#help">Need Help</a></li>
+        <li><a href="#help">Need Help</a></li>
         <li><a href="#contact">Contact Us</a></li>
         <li><a>More</a></li>
-        <li><a href="#about">People Like Me</a></li>
+        <li><a href="#people">People Like Me</a></li>
         <li><a href="#about">About Us</a></li>
         </ul>
       </ul>
@@ -60,24 +75,21 @@
   </div>
 
   <div class="container">
-    <div id="help">
+    <div class="container" id="help">
       <h2>Need help?</h2>
-      <h4>
+      <p>
         We support people in London, Manchester and Newcastle who are 25 or younger, and identify as Lesbian, Gay, Bisexual, Trans, Queer, Questioning or Intersex, find a safe place to live.
-      </h4>
+      </p>
 
-      <p>If you are:</p> 
-      <ul>
-        <li>Street homeless</li>
-        <li>Living in a hostile environment</li>
-        <li>Homeless and sofa surfing</li>
-      </ul>
-      <p><a href="#contact">Contact us now</a></p>
+      <p>
+        If you are <em>Street homeless, Living in a hostile environment, or Homeless and sofa surfing</em>
+        <a href="#contact"><strong>Contact us now</strong></a>.
+      </p> 
       <p>
         <img src="/images/AKT_Shoot.jpg" alt="AKT Family Shoot" class="img-rounded">
-      </p>
-      <br />
-      <h4>Find out more about</h4>
+      </p>      
+      
+      <h3>Find out more about:</h3>
       <div class="panel-group" id="accordion">
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -89,18 +101,21 @@
           </div>
           <div id="collapseServices" class="panel-collapse collapse">
             <div class="panel-body">
-              <p>Your safety is our priority. When we can’t help you to stay safely at home, we may be able to help find you a secure and supportive place to stay.</p>
-
-
               <p>
-              Our Purple Door project has a mix of emergency, medium and long term accommodation in London, Manchester and Newcastle.
+                Your safety is our priority. When we can’t help you to stay safely at home, we may be able to help find you a secure and supportive place to stay.
               </p>
-
-              <p>This includes our Independent Living project in Newcastle and Northumberland which offers a mix of self-contained flats and bedsits for up to 18 months.</p>
-
-
-              <p>Our Supported Lodgings project has a network of volunteer carers in London and Manchester who can provide a room in a safe home and family environment.</p>
-              <p>AKT also works with housing providers in London, Manchester &amp; Newcastle who may also be able to meet your need for safe housing. Throughout your stay with AKT we will help you get your life back on track and move on.</p>
+              <p>
+                Our Purple Door project has a mix of emergency, medium and long term accommodation in London, Manchester and Newcastle.
+              </p>
+              <p>
+                This includes our Independent Living project in Newcastle and Northumberland which offers a mix of self-contained flats and bedsits for up to 18 months.
+              </p>
+              <p>
+                Our Supported Lodgings project has a network of volunteer carers in London and Manchester who can provide a room in a safe home and family environment.
+              </p>
+              <p>
+                AKT also works with housing providers in London, Manchester &amp; Newcastle who may also be able to meet your need for safe housing. Throughout your stay with AKT we will help you get your life back on track and move on.
+              </p>
             </div>
           </div>
         </div>
@@ -151,16 +166,16 @@
                 <li>Making the Most of Your Budget</li>
                 <li>Managing Difficult Situations</li>
               </ul>
-
               <p>
                 During these sessions you will learn new skills, gain qualifications and meet other young people who understand what you are going through.
               </p>
               <p>
-                “Right now I’ve got my own place and I’m retaking my GCSEs. Without the help from The Albert Kennedy Trust I don’t think that would have been possible.”
+                "Right now I’ve got my own place and I’m retaking my GCSEs. Without the help from The Albert Kennedy Trust I don’t think that would have been possible."
               </p>
             </div>
           </div>
         </div>
+        
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
@@ -171,67 +186,75 @@
           </div>
           <div id="collapseThree" class="panel-collapse collapse">
             <div class="panel-body">
-              <p>AKT has a team of trained mentors who can help you move your life forward positively 
-                Mentoring can help you with:</p>
+              <p>
+                AKT has a team of trained mentors who can help you move your life forward positively Mentoring can help you with:
+              </p>
 
-                <ul>
-                  <li>Coming to terms with your identity</li>
-                  <li>Helping your parents understand</li>
-                  <li>Job hunting</li>
-                  <li>Juggling your money</li>
-                  <li>Keeping on top of school or college work</li>
-                  <li>Meeting other people your age who understand you</li>
-                </ul>
-                <p>
-                  And lots more. The help they give will depend on what you want and need.
-                </p>
-                <p>
-                  “I had threats of violence from relatives who see my sexuality as a cause of family shame. Despite all I have been through, I am proud to say I am making good progress.”
-                </p>
-              </div>
+              <ul>
+                <li>Coming to terms with your identity</li>
+                <li>Helping your parents understand</li>
+                <li>Job hunting</li>
+                <li>Juggling your money</li>
+                <li>Keeping on top of school or college work</li>
+                <li>Meeting other people your age who understand you</li>
+              </ul>
+                
+              <p>
+                And lots more. The help they give will depend on what you want and need.
+              </p>
+              <p>
+                "I had threats of violence from relatives who see my sexuality as a cause of family shame. Despite all I have been through, I am proud to say I am making good progress."
+              </p>
             </div>
           </div>
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                  Advocacy &amp; Support</a>
-                </h4>
-              </div>
-              <div id="collapseFour" class="panel-collapse collapse">
-                <div class="panel-body">
-                  <p>If you feel frustrated or unable to talk to people in authority when asking for help, AKT may be able to help you get the support and services you are entitled to.
-                    Our team of staff and volunteer advocates know how to get the best for you. If you are unhappy with how you are being treated they will write letters of support, come with you to meetings, talk to decision makers and can explain your rights to make sure they aren’t ignored. </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                      Youth Participation &amp; Support</a>
-                    </h4>
-                  </div>
-                  <div id="collapseFive" class="panel-collapse collapse">
-                    <div class="panel-body">
-                      <p>AKT runs a programme of activities and events to help you:</p>
-                      <ul>
-                        <li>Play an active role in helping us develop future services for you</li>
-                        <li>Meet other young people like you</li>
-                        <li>Have fun and learn - from arts based projects with local theatres and artists, to trips, activities and Prides.</li>
-                      </ul>
-                      <p>
-                        <img src="images/Pride_Picture.jpg" alt="Albert Kennedy Trust" class="img-rounded"/>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        </div>
+        
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                Advocacy &amp; Support
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>
+                If you feel frustrated or unable to talk to people in authority when asking for help, AKT may be able to help you get the support and services you are entitled to. Our team of staff and volunteer advocates know how to get the best for you. If you are unhappy with how you are being treated they will write letters of support, come with you to meetings, talk to decision makers and can explain your rights to make sure they aren’t ignored.
+              </p>
             </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                Youth Participation &amp; Support
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFive" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>
+                AKT runs a program of activities and events to help you:
+              </p>
+              <ul>
+                <li>Play an active role in helping us develop future services for you</li>
+                <li>Meet other young people like you</li>
+                <li>Have fun and learn - from arts based projects with local theaters and artists, to trips, activities and Prides.</li>
+              </ul>
+              <p>
+                <img src="images/Pride_Picture.jpg" alt="Albert Kennedy Trust" class="img-rounded"/>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-            <div id="people">
+            <div id="people" class="container">
               <h2>People like me</h2>
 
               <div class="panel-group" id="accordion">
@@ -279,57 +302,67 @@
                 </div>
               </div>
 
-              <div id="contact">
-                <h2>Contact us</h2>
+    <div id="contact" class="container">
+      <h2>Contact us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            In an emergency our London, Manchester and Newcastle offices are contactable <strong>10:00am to 4:30pm Monday to Friday.</strong>
+          </p>
+          <p>London: 020 7831 6562</p>
+          <p>Manchester: 0161 228 3308</p>
+          <p>Newcastle: 0191 281 0099</p>
+          <p>Twitter: <a href="http://www.twitter.com/AlbertKennedyTr">@AlbertKennedyTr</a></p>
+          <p>
+            Facebook: <a href="http://www.facebook.com/pages/The-Albert-Kennedy-Trust-Official-Page/26321373907"> AKT Facebook Page</a>
+          </p>
+          <p>Website <a href="http://www.akt.org.uk">http://www.akt.org.uk</a></p>
+        </div>
+      
 
-                <p>
-                  In an emergency our London, Manchester
-                  and Newcastle offices are contactable
-                  10:00am to 4:30pm Monday to Friday.
-                  <p>London: 020 7831 6562</p>
-                  <p>Manchester: 0161 228 3308</p>
-                  <p>Newcastle: 0191 281 0099</p>
-                  <p>Twitter : @AlbertKennedyTr</p>
-                  <p>Facebook: <a href="http://www.facebook.com/pages/The-Albert-Kennedy-Trust-Official-Page/26321373907"> AKT Facebook Page</a></p>
-                  <p>Website <a href="http://www.akt.org.uk">http://www.akt.org.uk</a></p>
-                </p>
+        <form id="form" action="http://m.dakaix.com/b_api/contact.php" method="post" role="form" class="col-md-6">
+          <input name="a" type="hidden" value="33c30e17f89583433f51b1ac727acd4b23f9dccb0da3020ef65e9a0029889293d042ccf65033371f28384c0718e186bfb69bcafc5cb67e571924039b6034d4c3" />
+          
+          <div class="form-group">
+            <label>Email*:</label>
+            <input type="email" name="email" value="" placeholder="Your Email" class="form-control" required>
+            <p>If you want us to contact you by email</p>
+          </div>
+          
+          <div class="form-group">
+            <label>Your Name*:</label>
+            <input type="text" name="name" value="" placeholder="Your name" class="form-control" required>
+            <p>This does not have to be your real name</p>
+          </div>
+          
+          <div class="form-group">
+            <label >Your Phone No:</label>
+            <input type="text" name="name" value="" placeholder="Your Name" class="form-control" required>
+            <p>If you want us to contact you by phone</p>
+          </div>
+          
+          <div class="form-group">
+            <label>Message*:</label>
+            <textarea name="message" class="form-control" required></textarea>
+            <p>For example if you can only be contacted at certain times</p>
+          </div>
+          
+          <div class="form-group">
+            <label >Which city it closest to you?*</label>
+            <select name="city" class="form-control">
+              <option value="London">London</option>
+              <option value="Manchester">Manchester</option>
+              <option value="Newcastle">Newcastle</option>
+            </select>
+          </div>
+          
+          <button type="submit" class="btn btn-default">Send</button>
+          <input name="reset" type="reset" value="Clear" class="btn btn-default"/>
+        </form>
+      </div>
+    </div>
 
-                <form id="form" action="http://m.dakaix.com/b_api/contact.php" method="post" role="form" style="max-width: 320px">
-                  <input name="a" type="hidden" value="33c30e17f89583433f51b1ac727acd4b23f9dccb0da3020ef65e9a0029889293d042ccf65033371f28384c0718e186bfb69bcafc5cb67e571924039b6034d4c3" />
-                  <div class="form-group">
-                    <label>Email*:</label>
-                    <input type="email" name="email" value="" placeholder="Your Email" class="form-control" required>
-                    <p>If you want us to contact you by email</p>
-                  </div>
-                  <div class="form-group">
-                    <label>Your Name*:</label>
-                    <input type="text" name="name" value="" placeholder="Your name" class="form-control" required>
-                    <p>This does not have to be your real name</p>
-                  </div>
-                  <div class="form-group">
-                    <label >Your Phone No:</label>
-                    <input type="text" name="name" value="" placeholder="Your Name" class="form-control" required>
-                    <p>If you want us to contact you by phone</p>
-                  </div>
-                  <div class="form-group">
-                    <label>Message*:</label>
-                    <textarea name="message" class="form-control" required></textarea>
-                    <p>For example if you can only be contacted at certain times</p>
-                  </div>
-                  <div class="form-group">
-                    <label >Which city it closest to you?*</label>
-                    <select name="city" class="form-control">
-                      <option value="London">London</option>
-                      <option value="Manchester">Manchester</option>
-                      <option value="Newcastle">Newcastle</option>
-                    </select>
-                  </div>
-                  <button type="submit" class="btn btn-default">Send</button>
-                  <input name="reset" type="reset" value="Clear" class="btn btn-default"/>
-                </form>
-              </div>
-
-    <div id="about">
+    <div id="about" class="container">
       <h2>About us</h2>
       <h3>Our history</h3>
       <p>
@@ -342,11 +375,11 @@
       <p>
         We are grateful to the following agencies for their support:
       </p>
-      <div style="padding-bottom: 3em; overflow: hidden;">
-        <img src="/images/htf.jpg" alt="Homeless Transition Fund" class="img-logo">
-        <img src="/images/MCC.jpg" alt="Manchester Council" class="img-logo">
-        <img src="/images/Newcastle_Fund.jpg" alt="Newcastle Fund" class="img-logo">
-        <img src="/images/london_councils.jpg" alt="London Councils" class="img-logo">
+      <div class="row logos">
+        <img src="/images/htf.jpg" alt="Homeless Transition Fund" class="col-md-5 col-xs-6">
+        <img src="/images/MCC.jpg" alt="Manchester Council" class="col-md-5 col-xs-6">
+        <img src="/images/Newcastle_Fund.jpg" alt="Newcastle Fund" class="col-md-5 col-xs-6">
+        <img src="/images/london_councils.jpg" alt="London Councils" class="col-md-5 col-xs-6">
       </div>
     </div>
   </div>
